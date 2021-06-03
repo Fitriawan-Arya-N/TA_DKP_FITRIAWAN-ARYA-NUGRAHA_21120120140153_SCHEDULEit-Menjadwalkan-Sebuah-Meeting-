@@ -1,0 +1,153 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    
+}
+
+.container{
+    background: rgb(255, 255, 255);
+    width: 410px;
+    height: 410px;
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 6px;
+}
+
+.container .text {
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.box{
+    background: none;
+    border: 0px;
+    margin: 10px 0px 10px 30px;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    outline: none;
+}
+
+.tempat {
+    background: none;
+    border: 0px;
+    margin: 10px 0px 10px 30px;
+    margin-left: 35px;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    outline: none;
+}
+
+.waktu {
+    background: none;
+    border: 0px;
+    margin: 10px 0px 10px 30px;
+    margin-left: 43px;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    outline: none;
+}
+
+.tanggal {
+    background: none;
+    border: 0px;
+    margin: 10px 0px 10px 30px;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    outline: none;
+}
+
+input {
+    background: none;
+    border: 0px;
+    border-bottom: 1px solid #000000;
+    margin: 10px 0px 10px 30px;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    outline: none;
+}
+
+.tabel{
+    top: 40%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+
+.tabel{
+    background: rgb(255, 255, 255);
+    width: 440px;
+    height: 410px;
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 6px;
+    position: absolute;
+}
+body {
+    background-image: url(b.jpg);
+    font-family: "Poppins", sans-serif;
+    overflow: hidden;
+}
+
+.tombol1 {
+    background: #47e6be;
+    color: rgb(255, 255, 255);
+    width: 25%;
+    position: absolute;
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-left: 70px;
+}
+
+.tombol2 {
+    background: #f16b6b;
+    color: rgb(255, 255, 255);
+    width: 25%;
+    position: absolute;
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-left: 210px;
+}
+
+.tombol3 {
+    background: #f16b6b;
+    color: rgb(255, 255, 255);
+    width: 25%;
+    position: absolute;
+    border-radius: 6px;
+    margin-top: 200px;
+    margin-left: 450px;
+}
+
+button{
+    background: none;
+    font-size: 19px;
+    padding: 10px 0px;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    border: none;
+}
+
+.tombol1:hover {
+    background: #267e68;
+    color: #fff;
+}
+
+.tombol2:hover {
+    background: #b32e2e;
+    color: #fff;
+}
+
+.tombol3:hover {
+    background: #b33a31;
+    color: #fff;
+}
+
